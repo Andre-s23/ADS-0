@@ -6,8 +6,7 @@ int gcd(int a, int b) {
     int count;
     if (a > b) {
         max = a;
-    }
-    else {
+    } else {
         max = b;
     }
     if (a == b) max = a;
